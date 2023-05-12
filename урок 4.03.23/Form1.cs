@@ -21,9 +21,9 @@ namespace урок_4._03._23
         {
             dataGridView1.RowCount = 1; //Указываем количество строк
 
-            dataGridView1.ColumnCount = 15; //Указываем количество столбцов
+            dataGridView1.ColumnCount = 30; //Указываем количество столбцов
 
-            int[,] a = new int[1, 15]; //Инициализируем массив
+            int[,] a = new int[1, 30]; //Инициализируем массив
 
             int i, j;
 
@@ -33,7 +33,7 @@ namespace урок_4._03._23
 
             for (i = 0; i < 1; i++)
 
-                for (j = 0; j < 15; j++)
+                for (j = 0; j < 30; j++)
 
                     a[i, j] = rand.Next(-10, 10);
 
@@ -41,7 +41,7 @@ namespace урок_4._03._23
 
             for (i = 0; i < 1; i++)
 
-                for (j = 0; j < 15; j++)
+                for (j = 0; j < 30; j++)
 
                     dataGridView1.Rows[i].Cells[j].Value = Convert.ToString(a[i, j]);
         }
