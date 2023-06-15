@@ -107,7 +107,7 @@ namespace урок_4._03._23
 
         private void button3_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
